@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+   
+   <style type="text/css">
+   body
+{
+  padding: 30px;
+  background-color: #fcfcfc;
+}
+.outer-div
+{
+  padding: 30px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.inner-div
+{
+  display: inline-block;
+  padding: 50px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+   </style>
+      <title>Logout</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   </head>
+    
+   <body>
+      <!-- Include _menu.html -->
+      <div th:include="/_menu"></div>
+       
+     <div class="outer-div">
+     <div class="inner-div">
+      <h1>Logout Successful!</h1>
+     </div>
+   
+   </body>
+    
+</html>
